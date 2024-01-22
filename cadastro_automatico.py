@@ -59,3 +59,4 @@ for dados in tabela.index:
     sleep(2)
     pa.click(x=946, y=633)
     sleep(2)
+
