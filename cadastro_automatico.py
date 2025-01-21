@@ -4,6 +4,7 @@ import webbrowser
 import pandas as pd
 from time import sleep
 
+
 tabela = pd.read_excel('produtos_ficticios.xlsx')
 webbrowser.open('https://cadastro-produtos-devaprender.netlify.app/index.html')
 sleep(5)
@@ -57,6 +58,6 @@ for dados in tabela.index:
     sleep(2)
     pa.press('enter')
     sleep(2)
-    pa.click(x=946, y=633)
+    pa.click(x=928, y=648)
     sleep(2)
 
